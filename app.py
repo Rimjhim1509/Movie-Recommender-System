@@ -1,3 +1,8 @@
+import joblib
+joblib.dump(similarity, 'similarity_compressed.pkl')
+
+
+
 import streamlit as st
 import pickle
 
